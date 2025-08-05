@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2025-08-05T19:54:23.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" etag="v6dxn5TEdZT2ZUUV3gm9" version="24.6.4" type="device">
+  <diagram name="Страница — 1" id="cXEbn0OJgnVgf7lFzlfE">
+    <mxGraphModel dx="2065" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FB85wefRLg7pQERWeSkm-2" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Безопасность данных&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-3" value="Публичные данные" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="370" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-4" value="Внутренние данные" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-5" value="Конфиденциальные данные" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="370" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-6" value="Секретные данные" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="370" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-7" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1. Информация на маркетинговом сайте&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. Общие описания ЖК&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3. Рекламные материалы&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4. Общедоступные API для витрины&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="480" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-8" value="&lt;ol&gt;&lt;li&gt;Внутренние отчёты по продажам&lt;/li&gt;&lt;li&gt;Статистика бронирований&lt;/li&gt;&lt;li&gt;Техническая документация&lt;/li&gt;&lt;li&gt;&amp;nbsp;Внутренние инструкции&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-9" value="&lt;ol&gt;&lt;li&gt;Персональные данные клиентов и собственников&lt;/li&gt;&lt;li&gt;Данные бронирования&lt;/li&gt;&lt;li&gt;История платежей&lt;/li&gt;&lt;li&gt;Сведения о работах в ЖК&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-10" value="&lt;ol&gt;&lt;li&gt;Данные паспортов&lt;/li&gt;&lt;li&gt;Информация о банковских реквизитах&lt;/li&gt;&lt;li&gt;Ключи API&lt;/li&gt;&lt;li&gt;Учётные данные администраторов&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="900" y="480" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-11" value="&lt;ol&gt;&lt;li&gt;Утечка данных: Незначительный&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Потеря данных: Незначительный&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Искажение данных: Значительный&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Некачественные данные: Значительный&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Обесценивание данных: Значительный&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="620" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-12" value="&lt;ol&gt;&lt;li&gt;Утечка данных: Значительный&lt;/li&gt;&lt;li&gt;Потеря данных: Значительный&lt;/li&gt;&lt;li&gt;Искажение данных: Значительный&lt;/li&gt;&lt;li&gt;Некачественные данные: Значительный&lt;/li&gt;&lt;li&gt;Обесценивание данных: Значительный&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="620" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-13" value="&lt;ol&gt;&lt;li&gt;Утечка данных: Критический&lt;/li&gt;&lt;li&gt;Потеря данных: Критический&lt;/li&gt;&lt;li&gt;Искажение данных: Критический&lt;/li&gt;&lt;li&gt;Некачественные данные: Значительный&lt;/li&gt;&lt;li&gt;Обесценивание данных: Значительный&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="620" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-14" value="&lt;ol&gt;&lt;li&gt;Утечка данных: Критический&lt;/li&gt;&lt;li&gt;Потеря данных: Критический&lt;/li&gt;&lt;li&gt;Искажение данных: Критический&lt;/li&gt;&lt;li&gt;Некачественные данные: Критический&lt;/li&gt;&lt;li&gt;Обесценивание данных: Незначительный&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="900" y="620" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-15" value="Если мы рассматриваем публичные данные изначально находящиеся в открытом доступе, то утечка и потеря таких данных не повлияет на безопасность, но могут временно снизить эффективность маркетинга. Основные угрозы это искажение информации при взломе сайта скорее всего повлияет на репутацию компании и ошибки или устаревшие сведения на сайте, которые также могут затронуть доверие новых клиентов и возможно, старые тоже будут недовольны" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="750" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-16" value="Тут стоит исходить из последствий, утечка внутренних данных&amp;nbsp; раскроет коммерческие показатели, а потеря лишит возможность аналитики для каких-то дальнейших решений. Искажения и неполнота данных приведут к ошибочным прогнозам и просчётам. Потеря актуальности этих данных делает их неэффективными для бизнеса" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="750" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-17" value="Утечка конфиденциальных данных нарушает законодательство о персональных данных Потеря таких сведений не даст компании возможности обслуживать клиентов и проводить сделки. Искажения приводят к срыву операций и нарушению договорных обязательств. Некачественные или устаревшие данные мешают эффективной работе с партнёрами и госорганами и уменьшают потенциал повторных продаж." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="750" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FB85wefRLg7pQERWeSkm-18" value="Секретные данные включают документы, реквизиты и ключи доступа, утечка или подмена которых может повлечь прямые финансовые убытки и юридические последствия. Потеря этих данных блокирует сделки и работу сервисов. Ошибки в них делают невозможным проведение операций. Обесценивание маловероятно, так как эти данные всегда должны быть актуальны и используются в ограниченном контексте." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="910" y="750" width="280" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
